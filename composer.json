@@ -1,0 +1,35 @@
+{
+    "name": "maxoplata/string-thing",
+	"description": "A lightweight library for encoding and decoding strings using various patterns.",
+	"type": "library",
+    "license": "MIT",
+	"minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Maxoplata\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Maxamilian Demian",
+            "email": "max@maxdemian.com"
+        }
+    ],
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/Maxoplata/string-thing-php"
+		}
+	],
+	"scripts": {
+		"phpcs": "phpcs",
+		"phpunit": "phpunit tests"
+	},
+    "require-dev": {
+		"squizlabs/php_codesniffer": "^3.7",
+        "phpunit/phpunit": "^9.6"
+	},
+	"require": {
+		"ext-ctype": "*"
+	}
+}
