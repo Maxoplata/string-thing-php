@@ -5,7 +5,7 @@ StringThing is a lightweight library for encoding and decoding strings using var
 ## Installation
 
 ```sh
-compsoer require string-thing
+composer require string-thing
 ```
 
 ## Usage
