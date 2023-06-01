@@ -113,7 +113,7 @@ $passwordAttempt = 'myPassword123';
 $encodedPasswordAttempt = (new StringThing($stringThingPattern))->encode($passwordAttempt);
 
 // Hash the encoded password attempt with bcrypt
-$hashedPasswordAttempt = password_hash($encodedPassword, PASSWORD_BCRYPT);
+$hashedPasswordAttempt = password_hash($encodedPasswordAttempt, PASSWORD_BCRYPT);
 
 // Compare the hashed password attempt to the stored hashed password
 if ($hashedPasswordAttempt === $hashedPassword) {
